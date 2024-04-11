@@ -1,0 +1,24 @@
+.category-movies {
+  padding-top: 16px;
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+  padding-bottom: 52px;
+}
+.img-movie {
+  width: 186px;
+  padding: 4px;
+  transition: transform 0.5s; /* Animation */
+}
+.img-movie:hover {
+  transform: scale(1.2);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+.titleMovies {
+  color: #d7d7d7;
+}

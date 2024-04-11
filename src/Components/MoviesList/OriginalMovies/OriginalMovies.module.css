@@ -1,0 +1,21 @@
+.original {
+  padding-top: 24px;
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+  padding-bottom: 63px;
+}
+.img-movie {
+  width: 112px;
+  padding: 4px;
+  transition: transform 0.5s; /* Animation */
+}
+.img-movie:hover {
+  transform: scale(1.2);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
